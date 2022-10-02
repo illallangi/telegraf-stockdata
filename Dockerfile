@@ -1,5 +1,5 @@
 FROM ghcr.io/illallangi/telegraf:v0.0.9
-ENV INFLUXDB_DATABASE=uptimerobot \
+ENV INFLUXDB_DATABASE=stockdata \
     TELEGRAF_INTERVAL=1200
 
 COPY ./requirements.txt /usr/src/app/requirements.txt
