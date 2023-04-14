@@ -1,4 +1,4 @@
-FROM ghcr.io/illallangi/telegraf:v0.0.12
+FROM ghcr.io/illallangi/telegraf:v0.0.13
 ENV INFLUXDB_DATABASE=stockdata \
     TELEGRAF_INTERVAL=1200
 
