@@ -1,5 +1,5 @@
 # Main image
-FROM docker.io/library/debian:bookworm-20231218
+FROM docker.io/library/debian:bookworm-20240311
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install packages
@@ -13,7 +13,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     gnupg=2.2.40-1.1 \
     gnupg1=1.4.23-1.1+b1 \
     gnupg2=2.2.40-1.1 \
-    libpq-dev=15.5-0+deb12u1 \
+    libpq-dev=15.6-0+deb12u1 \
     lm-sensors=1:3.6.0-7.1 \
     musl=1.2.3-1 \
     postgresql-common=248 \
