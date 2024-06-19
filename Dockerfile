@@ -1,5 +1,5 @@
 # Main image
-FROM docker.io/library/debian:bookworm-20240513
+FROM docker.io/library/debian:bookworm-20240612
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install packages
