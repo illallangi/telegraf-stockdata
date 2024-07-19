@@ -13,7 +13,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     gnupg=2.2.40-1.1 \
     gnupg1=1.4.23-1.1+b1 \
     gnupg2=2.2.40-1.1 \
-    libpq-dev=15.6-0+deb12u1 \
+    libpq-dev=15.7-0+deb12u1 \
     lm-sensors=1:3.6.0-7.1 \
     musl=1.2.3-1 \
     postgresql-common=248 \
@@ -49,7 +49,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
   apt-get update \
   && \
   apt-get install -y --no-install-recommends \
-    telegraf=1.25.2-1 \
+    telegraf=1.31.1-1 \
   && \
   apt-get clean \
   && \
