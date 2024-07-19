@@ -9,7 +9,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
   apt-get install -y --no-install-recommends \
     build-essential=12.9 \
     ca-certificates=20230311 \
-    curl=7.88.1-10+deb12u5 \
+    curl=7.88.1-10+deb12u6 \
     gnupg=2.2.40-1.1 \
     gnupg1=1.4.23-1.1+b1 \
     gnupg2=2.2.40-1.1 \
