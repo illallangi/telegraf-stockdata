@@ -1,5 +1,5 @@
 # Main image
-FROM docker.io/library/debian:bookworm-20231218
+FROM docker.io/library/debian:bookworm-20240904
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install packages
@@ -9,11 +9,11 @@ RUN DEBIAN_FRONTEND=noninteractive \
   apt-get install -y --no-install-recommends \
     build-essential=12.9 \
     ca-certificates=20230311 \
-    curl=7.88.1-10+deb12u5 \
+    curl=7.88.1-10+deb12u7 \
     gnupg=2.2.40-1.1 \
     gnupg1=1.4.23-1.1+b1 \
     gnupg2=2.2.40-1.1 \
-    libpq-dev=15.5-0+deb12u1 \
+    libpq-dev=15.8-0+deb12u1 \
     lm-sensors=1:3.6.0-7.1 \
     musl=1.2.3-1 \
     postgresql-common=248 \
@@ -49,7 +49,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
   apt-get update \
   && \
   apt-get install -y --no-install-recommends \
-    telegraf=1.25.2-1 \
+    telegraf=1.31.1-1 \
   && \
   apt-get clean \
   && \
